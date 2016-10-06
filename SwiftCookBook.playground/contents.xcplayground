@@ -6,5 +6,6 @@
         <page name='Dictionaries'/>
         <page name='Strings'/>
         <page name='Date_Time'/>
+        <page name='Sets'/>
     </pages>
 </playground>
