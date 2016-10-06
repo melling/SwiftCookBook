@@ -1,3 +1,6 @@
 * Swift Cookbook
 
 Swift 3.x compatible
+
++ [[Pages/Arrays.xcplaygroundpage/Contents.swift][Arrays]]
++ [[Pages/Strings.xcplaygroundpage/Contents.swift][Strings]]
