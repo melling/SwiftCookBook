@@ -123,7 +123,7 @@ var blogTitle = "  Swift Cookbook  ".trimmingCharacters(in: NSCharacterSet.white
 
 //: Also remove newlines
 blogTitle = "  Swift Cookbook  \n".trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
-//: Remove surround quotes
+//: Remove surrounding quotes
 let quotedString = "\"h4labs\""
 
 let quotesRemoved = quotedString.replacingOccurrences(of: "\"", with: "")
