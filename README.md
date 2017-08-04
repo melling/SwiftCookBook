@@ -1,6 +1,6 @@
 * Swift Cookbook
 
-Swift 3.x compatible
+Swift 4.x compatible
 
 + [Arrays](SwiftCookBook.playground/Pages/Arrays.xcplaygroundpage/Contents.swift)
 + [Colors](SwiftCookBook.playground/Pages/Colors.xcplaygroundpage/Contents.swift)
