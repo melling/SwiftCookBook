@@ -121,8 +121,12 @@ var blogTitle = "  Swift Cookbook  ".trimmingCharacters(in: NSCharacterSet.white
 
 //stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
 
-// Also remove newlines
+//: Also remove newlines
 blogTitle = "  Swift Cookbook  \n".trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
+//: Remove surround quotes
+let quotedString = "\"h4labs\""
+
+let quotesRemoved = quotedString.replacingOccurrences(of: "\"", with: "")
 
 //: Uppercase
 

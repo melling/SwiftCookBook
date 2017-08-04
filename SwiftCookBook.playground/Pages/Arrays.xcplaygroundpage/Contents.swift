@@ -83,7 +83,7 @@ anArray.index(of: "two")
 //: indexOf() can also be used to search an array
 let aNumericArray = [1, 2, 10, 20, 100]
 let x = aNumericArray.index(where: {$0 > 10}) // Find the index of first value greater than 10
-print(x)
+print(x ?? 0)
 
 //: Array.reduce
 /*:
