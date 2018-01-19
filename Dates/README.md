@@ -15,6 +15,8 @@ let d = dayOfYear()
 print("Day Of Year: \(d)")
 ```
 
+[Source](dayOfYear.swift)
+
 ### Last Day Of Month
 
 #### Example
@@ -37,6 +39,7 @@ x.forEach({print("\($0)")})
 ### Is Leap Year
 
 #### Example
+
 ```swift
 let isY1900 = isLeapYear(1900) // false
 let isY2000 = isLeapYear(2000) // true
@@ -62,7 +65,7 @@ Calculate tomorrow's date
 [Source](tomorrow.swift)
 
 ### Yesterday
-Calculate tomorrow's date
+Calculate yesterday's date
 
 [Source](yesterday.swift)
 
