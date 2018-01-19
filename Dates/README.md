@@ -6,8 +6,8 @@
 ### Day of Year
 Return the current day of the year.
 
-e.g.  Jan 1 returns 1
-      Feb 2 returns 32
+- Jan 1 returns 1
+- Feb 2 returns 32
 
 #### Example
 ```swift
@@ -18,12 +18,37 @@ print("Day Of Year: \(d)")
 ### Last Day Of Month
 
 #### Example
+```swift
+// Last day of current month
+let now = Date()
+let day = lastDayOfMonth(now)
+```
+
+```swift
+// Last day of each month for given year
+let x = lastDayOfMonthList(year: 2016)
+x.forEach({print("\($0)")})
+```
 
 > swift lastDayOfMonth.swift # run from shell
 
 [Source](lastDayOfMonth.swift)
 
 ### Is Leap Year
+
+#### Example
+```swift
+let isY1900 = isLeapYear(1900) // false
+let isY2000 = isLeapYear(2000) // true
+let isY2015 = isLeapYear(2015) // false
+let isY2016 = isLeapYear(2016) // true
+let isY2020 = isLeapYear(2020) // true
+```
+#### Example
+```swift
+let isThisYear = isLeapYear() // Default parameter is Date()
+print("This year is a leap year: \(isThisYear)")
+```
 
 > swift isLeapYear.swift
 
