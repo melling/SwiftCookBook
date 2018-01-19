@@ -1,7 +1,9 @@
 
 ## Swift Date Functions
 
-Tomorrow | Yesterday
+[Is Leap Year](##Is-Leap-Year) | [Tomorrow](##Tomorrow) | [Yesterday](##Yesterday)
+
+### Is Leap Year
 
 ### Tomorrow
 Calculate tomorrow's date
