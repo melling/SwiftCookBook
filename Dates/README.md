@@ -1,7 +1,7 @@
 
 ## Swift Date Functions
 
-[Is Leap Year](##Is-Leap-Year) | [Tomorrow](##Tomorrow) | [Yesterday](##Yesterday)
+[Is Leap Year](#Is-Leap-Year) | [Tomorrow](#Tomorrow) | [Yesterday](#Yesterday)
 
 ### Is Leap Year
 
