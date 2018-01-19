@@ -1,7 +1,13 @@
 
 ## Swift Date Functions
 
-[Is Leap Year](#is-Leap-Year) | [Tomorrow](#tomorrow) | [Yesterday](#yesterday)
+[Is Leap Year](#is-Leap-Year) | [Last Day Of Month](#last-Day-Of-Month) | [Tomorrow](#tomorrow) | [Yesterday](#yesterday)
+
+### Last Day Of Month
+
+> swift lastDayOfMonth.swift # run from shell
+
+[Source](lastDayOfMonth.swift)
 
 ### Is Leap Year
 
