@@ -3,6 +3,7 @@
     <pages>
         <page name='Arrays'/>
         <page name='Colors'/>
+        <page name='Concurrency'/>
         <page name='Dictionaries'/>
         <page name='Strings'/>
         <page name='Date_Time'/>
