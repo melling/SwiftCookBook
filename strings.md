@@ -1,7 +1,7 @@
 
 ## Swift Strings
 
-###  String Introduction
+###  String Creation
 
 ```swift
 var mystr:String // Mutable string
