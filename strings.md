@@ -1,5 +1,6 @@
 
-## Swift String Cookbook
+## Swift Strings
+
 ###  String Introduction
 
 ```swift
