@@ -1,7 +1,8 @@
 # h4labs Swift Cookbook
 
+This content will (eventually) be mirrored on my site: http://www.h4labs.com/dev/ios/swift_cookbook.html
 
-http://www.h4labs.com/dev/ios/swift_cookbook.html
+This repo will be mainly about the Swift language.  I have another [repo with small iOS projects](https://github.com/melling/ios_topics/blob/master/README.md)
 
 Swift 5.x compatible
 
