@@ -22,6 +22,18 @@ var isDone = false // Bool
 
 ## if
 
+```swift
+let guess = 9
+let youWin:Bool
+
+if guess < 10 {
+   youWin = true
+} else {
+   youWin = false
+}
+
+```
+
 ## for
 
 
