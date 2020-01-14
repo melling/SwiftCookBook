@@ -7,10 +7,12 @@ Swift 5.x compatible
 ## Variable Declaration
 
 Common types: Int, String, Bool, CGFloat, Double, Float
+**let** is used to declare immutable values, while **var** is used to declare mutable variables.
 
 ```swift
 let language = "Swift" // Immutable String
 var i = 0 // mutable Int
+i += 1
 var x:CGFloat = 2
 var name:String
 let max:Int
