@@ -9,7 +9,8 @@ Swift 5.x compatible
 
 ## Variable Declaration
 
-Common types: Int, String, Bool, CGFloat, Double, Float
+Common types: **Int**, **String**, **Bool**, **CGFloat**, **Double**, **Float**
+
 **let** is used to declare immutable values, while **var** is used to declare mutable variables.
 
 ```swift
