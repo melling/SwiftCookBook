@@ -38,6 +38,8 @@ Same function but use _ to not use a named parameter
 ```swift
 func add1(_ i:Int) -> Int { i + 1 } // return word not needed if we have 1 expression
 let r0 = add1(1) // 2
+```
+
 
 ```swift
 
