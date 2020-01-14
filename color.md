@@ -1,6 +1,7 @@
 
 ## Color
 
+### Standard UIColors
 ```swift
 import UIKit
 
@@ -13,22 +14,29 @@ let redColor = UIColor.red
 let blueColor = UIColor.blue
 let greenColor = UIColor.green
 let clearColor = UIColor.clear
+```
 
-//: Standard CGColors - Core Graphics
+### Standard CGColors - Core Graphics
+
+```swift 
 let blackCGColor = UIColor.black.cgColor
 let whiteCGColor = UIColor.white.cgColor
 let redCGColor = UIColor.red.cgColor
 let blueCGColor = UIColor.blue.cgColor
 let greenCGColor = UIColor.green.cgColor
 let clearCGColor = UIColor.clear.cgColor
+```
 
+### Gray
 
-//: Gray
+```swift
 let gray:CGFloat = 255.0 // 0=black to 255=white
 let aGrayColor = UIColor(red: gray/255.0, green:gray/255.0, blue:gray/255.0, alpha:1)
+```
 
+### rgba
 
-//: rgba
+```swift
 let color = UIColor(red: 200/255.0, green:100/255.0, blue:100/255.0, alpha:1)
 
 let cgColor = UIColor(red: 200/255.0, green:100/255.0, blue:100/255.0, alpha:1).cgColor // Use with Core Graphics
@@ -39,11 +47,18 @@ green = 225
 blue = 101
 
 UIColor(red: red/255.0, green:green/255.0, blue:blue/255.0, alpha:1)
+```
 
-//: Hue
+### Hue
+
+```swift
 let colorWithHue = UIColor(hue:0.625, saturation:0.0, brightness:0.85, alpha:1.0)
+```
 
-//: Color from Pattern
+
+### Color from Pattern
+
+```
 //let image = UIImage(named:"texture.png")
 //let colorPattern = UIColor(patternImage: image!)
 //if let image = UIImage(named:"texture.png") {
