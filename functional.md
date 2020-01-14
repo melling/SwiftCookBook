@@ -32,3 +32,8 @@ let retestQuestions = questionList.filter {!$0.isAnsweredCorrectly}
 
 ```
 
+### Combining
+
+```swift
+arr.filter {}.compactMap {}
+```
