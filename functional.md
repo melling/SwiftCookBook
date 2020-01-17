@@ -32,12 +32,23 @@ let retestQuestions = questionList.filter {!$0.isAnsweredCorrectly}
 
 ```
 
-### take/drop
+### take
 
 ```swift
 
 ```
 
+### drop/dropWhile
+
+```swift
+
+```
+
+### zip
+
+```swift
+
+```
 
 ### Combining
 
