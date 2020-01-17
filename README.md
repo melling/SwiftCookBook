@@ -63,7 +63,15 @@ let r0 = add1(1) // 2
 ```swift
 
 ```
+### Multiple return values using tuples
 
+```swift
+func bestLanguage() -> (String, Int) {
+   return ("Swift", 1)
+}
+
+let (language, rank) = bestLanguage()
+```
 
 ## enum
 
