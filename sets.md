@@ -88,7 +88,7 @@ let all = set1 + set2 + set3
 ### Set Intersection
 
 ```swift
-
+let intersect = aSet1.intersection(aSet2)
 ```
 
 
