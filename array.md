@@ -13,6 +13,8 @@ let numbers9 = Array(1..<10) // 1 through 9
 
 let numbers0_9 = [Int](0..<10)
 
+var zeroArray = Array(repeating: 0, count: 100)
+
 //let total = numbers0_9.reduce(0, +)
 
 ```
