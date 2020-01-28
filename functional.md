@@ -11,6 +11,7 @@
 
 ```swift
 let evens = [1,2,3,4,5,6,7,8,9].filter {$0 % 2 == 0} // isEven
+["5", "a", "6","b"].filter {($0 as Character).isNumber}
 ```
 
 ### forEach
@@ -29,7 +30,7 @@ let product = [1,2,3].reduce(1, *)
 ### flatMap, compactMap
 
 ```swift
-
+["55", "a", "6","b"].compactMap {Int($0)}
 ```
 
 ### take
