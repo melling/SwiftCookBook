@@ -208,6 +208,7 @@ for character in "hello world".characters {
 ```swift
 let aNumberStr = "10"
 let anInt: Int? = Int(aNumberStr)
+let i: Int = Int(aNumberStr) ?? 0 // default to zero and make nonnullable
 ```
 
 ### String to Double
