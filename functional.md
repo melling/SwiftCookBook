@@ -55,6 +55,5 @@ let product = [1,2,3].reduce(1, *)
 
 ```swift
 [1,2,3,4,5,6,7,8,9].filter {$0 % 2 == 0}.map {$0 * 2}.reduce(0, +)
-
-arr.filter {}.compactMap {}
+["550", "a", "6", "b", "42", "99", "100"].compactMap {Int($0)}.filter {$0 < 100}
 ```
