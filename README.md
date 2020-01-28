@@ -52,7 +52,7 @@ func add1(i:Int) -> Int { i + 1 } // return word not needed if we have 1 express
 let r0 = add1(i: 1) // 2
 ```
 
-Same function but use _ to not use a named parameter
+Same function but add _ to not need a named parameter
 
 ```swift
 func add1(_ i:Int) -> Int { i + 1 } // return word not needed if we have 1 expression
