@@ -10,16 +10,9 @@ mystr = "\n"   // a newline character
 let s1 = "\\n" // Two characters, \ and n
 let bear = "🐻"
 
-for character in s1.characters {
-    var s0 = ":"
-    s0.append(character)
-    print(s0)
-}
-
 mystr = "Jon \"Maddog\" Orwant"  // escaped double quote
 var str = "Hello, playground" // Mutable string
 let language = "Swift" // Immutable string
-
 
 
 var str1: String
@@ -198,9 +191,19 @@ company = company.lowercased()
 ###  Loop Over Every Character of String
 
 ```swift
-for character in "hello world".characters {
+for character in "hello world" {
     print(character)
 }
+```
+
+```swift
+let letters = "abcdefg"
+var csv = ""
+for character in letters {
+    csv.append(character)
+    csv.append(",")
+}
+print(csv)
 ```
 
 ### String to Int
