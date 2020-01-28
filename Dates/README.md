@@ -62,10 +62,10 @@ Calculate tomorrow's date
 
 > swift tomorrow.swift
 
-[Source](tomorrow.swift)
+[tomorrow() Source](tomorrow.swift)
 
 ### Yesterday
 Calculate yesterday's date
 
-[Source](yesterday.swift)
+[yesterday() Source](yesterday.swift)
 
