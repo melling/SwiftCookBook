@@ -23,7 +23,8 @@ let retestQuestions = questionList.filter {!$0.isAnsweredCorrectly}
 ### reduce
 
 ```swift
-
+[1,2,3].reduce(0, +)
+[1,2,3].reduce(1, *)
 ```
 
 ### flatMap, compactMap
