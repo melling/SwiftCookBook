@@ -29,7 +29,7 @@ var str2: String = "hello world"
 ### String Length
 
 ```swift
-let stringLength = str.characters.count
+let stringLength = str.count
 ```
 
 ###  String Equality
