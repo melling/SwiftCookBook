@@ -140,7 +140,7 @@ url.hasSuffix("/")
 
 ```swift
 var letters:[String] = []
-"horse".characters.forEach {letters.append(String($0))}
+"horse".forEach {letters.append(String($0))}
 letters
 ```
 
