@@ -99,6 +99,13 @@ _ = "My \(str)" // Ignoring result
 _ = "My " + str
 ```
 
+### Remove Last Character/chop
+
+```swift
+var s = "abcd"
+let lastChar: Character = s.removeLast() // mutates s == "abc"
+```
+
 ###  Simple CSV split
 
 ```swift
