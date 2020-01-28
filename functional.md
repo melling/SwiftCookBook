@@ -53,5 +53,7 @@ let product = [1,2,3].reduce(1, *)
 ### Combining
 
 ```swift
+[1,2,3,4,5,6,7,8,9].filter {$0 % 2 == 0}.map {$0 * 2}.reduce(0, +)
+
 arr.filter {}.compactMap {}
 ```
