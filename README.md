@@ -40,6 +40,24 @@ if fuel < 10 {
 }
 ```
 
+### switch
+
+```swift
+
+switch ticker {
+
+ case "AAPL":
+
+ case "GOOGL":
+
+ case "MSFT":
+
+ default:
+
+}
+
+```
+
 ## for
 
 ```swift
