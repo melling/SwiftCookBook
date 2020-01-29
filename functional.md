@@ -48,7 +48,11 @@ let product = [1,2,3].reduce(1, *)
 ### zip
 
 ```swift
-
+let companies = ["Apple", "Google", "Microsoft"]
+let tickers = ["AAPL", "GOOGL","MSFT"]
+for (ticker, company) in zip(tickers, companies) {
+    print("\(ticker),\(company)")
+}
 ```
 
 ### Combining
