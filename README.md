@@ -28,22 +28,37 @@ var isDone = false // Bool
 ## if
 
 ```swift
-let guess = 9
-let youWin:Bool
+let fuel = 9
+let msg:String // Must assign in all cases
 
-if guess < 10 {
-   youWin = true
+if fuel < 10 {
+    msg = "Fuel dangerously low: \(fuel)"
+} else if fuel < 50 {
+    msg = "Fuel low: \(fuel)"
 } else {
-   youWin = false
+    msg = "Fuel OK"
 }
-
 ```
 
 ## for
 
+```swift
+for i in 0..<10 {
+    print("\(i)")
+}
+
+for i in 0...9 {
+    print("\(i)")
+}
+```
 
 ## for enumeration
 
+```swift
+for company in ["Apple", "Google", "Microsoft"] {
+    print("\(company)")
+}
+```
 
 ## function declarations
 
