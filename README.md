@@ -6,7 +6,7 @@ This repo will be mainly about the Swift language.  I have another [repo with sm
 
 Swift 5.x compatible
 
-- [Basics](README.md) | [Arrays](array.md) | [Colors](color.md) | [Date and Time](Dates/README.md) | [Dictionaries](dictionary.md) | [Sets](sets.md) | [Strings](strings.md) | [Functional Swift](functional.md)
+- [Basics](README.md) | [Arrays](array.md) | [Colors](color.md) | [Date and Time](Dates/README.md) | [Dictionaries](dictionary.md) | [Sets](sets.md) | [Sorting](sorting.md) | [Strings](strings.md) | [Functional Swift](functional.md)
 
 ## Variable Declarations
 
