@@ -53,6 +53,8 @@ Value might not exist so we wrap in let
 ```swift
 if let value = dictionary["AAPL"] {
     print("Found value for key = \(value)")
+} else {
+    dictionary["AAPL"] = "Apple" // Add
 }
 
 ```
