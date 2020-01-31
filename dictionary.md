@@ -7,7 +7,7 @@ var dictionary:[String:String] = [:] // Empty
 
 dictionary = ["AAPL": "Apple",
               "MSFT": "Microsoft",
-              "ABC": "zzz",
+              "AMZN": "Amazon",
               "GOOG": "Google"]
 
 let sharesOwned = ["AAPL": 200, "MSFT": 50] // [String:Int]
