@@ -110,6 +110,7 @@ let (language, rank) = bestLanguage()
 
 ```swift
 let rnd = Int.random(in: 0...1) // 0 or 1
+Bool.random() // true or false
 ```
 
 ## enum
