@@ -106,6 +106,12 @@ func bestLanguage() -> (String, Int) {
 let (language, rank) = bestLanguage()
 ```
 
+## Random Numbers
+
+```swift
+let rnd = Int.random(in: 0...1) // 0 or 1
+```
+
 ## enum
 
 
