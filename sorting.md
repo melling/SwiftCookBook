@@ -3,7 +3,9 @@
 ###
 
 ```swift
+let companies = ["Microsoft", "Google", "Apple", "Amazon", "Intel"].sorted()
 
+let reversed = companies.sorted(by: {$1 < $0})
 ```
 
 ###
