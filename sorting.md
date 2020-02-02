@@ -9,6 +9,7 @@ let reversed = companies.sorted(by: {$1 < $0})
 ```
 
 ###
+### Sort by Word Length
 
 ```swift
 
