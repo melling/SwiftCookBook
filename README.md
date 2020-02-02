@@ -40,7 +40,13 @@ if fuel < 10 {
 }
 ```
 
-### switch
+## ternary operator
+
+```swift
+let color = Bool.random() ? "red" : "black"
+```
+
+## switch
 
 ```swift
 
