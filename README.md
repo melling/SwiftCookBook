@@ -120,9 +120,15 @@ Bool.random() // true or false
 
 [1,2,3].randomElement() // random Array element
 Set([1,2,3]).randomElement() // random Set element
-let shuffled = [1,2,3].shuffled()
 ```
 
+### Shuffle
+
+Sometimes, it's better to shuffle an Array then simply iterate of the result to get a random element.  This allows each element to be chosen at random exactly once.
+
+```swift
+let shuffled = [1,2,3].shuffled()
+```
 ## enum
 
 
