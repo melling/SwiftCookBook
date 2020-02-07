@@ -50,6 +50,15 @@ let ar0 = [1,2,3].take(2)
 ### drop/dropWhile
 
 ```swift
+let xs = [1,2,3] + [4,5,6]
+let test = (0...3).drop { $0 > 1 } //dropWhile
+
+xs.drop { $0 <= 3 }
+//[1,2,3,4,5,6].drop(while: 2)
+[1,2,3,4,5,6].dropFirst(3)
+[1,2,3,4,5,6].dropFirst() // defaults to 1
+
+[1,2,3,4,5,6].dropLast() // defaults to 1
 
 ```
 
