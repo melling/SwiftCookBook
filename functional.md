@@ -37,7 +37,14 @@ let product = [1,2,3].reduce(1, *)
 ### take
 
 ```swift
+extension Array {
+    func take(_ n: Int) -> ArraySlice<Element> {
+        self[0..<n]
+    }
+}
 
+let ar0 = [1,2,3].take(2)
+["a","b","c"].take(2)
 ```
 
 ### drop/dropWhile
