@@ -119,6 +119,7 @@ let rnd = Int.random(in: 0...1) // 0 or 1
 Bool.random() // true or false
 
 Int.random(in: 20...29) // Random in range 20 through 29
+Float.random(in: 0...1) // Random between 0 and 1
 
 [1,2,3].randomElement() // random Array element
 Set([1,2,3]).randomElement() // random Set element
