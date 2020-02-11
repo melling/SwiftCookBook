@@ -124,6 +124,12 @@ if url.contains(str) {
 }
 ```
 
+### Replace All Characters in String
+
+```swift
+let row = "id first last"
+let csv = row.replacingOccurrences(of: " ", with: ",")
+```
 
 ### String begins with/Has prefix
 
