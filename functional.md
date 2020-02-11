@@ -6,6 +6,9 @@
 
 ```swift
 [1,2,3].map {$0 * 2}
+
+let row = "id first last"
+let csv = String(row.map {$0 == " " ? "," : $0}) // replace all occurrences
 ```
 
 ### filter
