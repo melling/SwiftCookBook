@@ -128,7 +128,7 @@ if url.contains(str) {
 
 ```swift
 let row = "id first last"
-let csv = row.replacingOccurrences(of: " ", with: ",")
+let csv = row.replacingOccurrences(of: " ", with: ",") // import Foundation
 ```
 
 ### String begins with/Has prefix
