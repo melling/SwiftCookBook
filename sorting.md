@@ -23,6 +23,10 @@ let reversed = companies.sorted(by: {$1 < $0})
  Comparable: Equality ==
  Comparable: < for sorted
  CustomStringConvertible: Provide description variable for print() 
+ 
+ Could use value type struct:
+    struct Person: Equatable, Comparable, CustomStringConvertible {}
+
  */
 public class Person: Equatable, Comparable, CustomStringConvertible {
     
