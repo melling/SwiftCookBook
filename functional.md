@@ -39,7 +39,7 @@ let sum = [1,2,3].reduce(0, +)
 let product = [1,2,3].reduce(1, *)
 ```
 
-[reduce(_:_:)](https://developer.apple.com/documentation/swift/array/2298686-reduce) | [reduce(into:_:)](https://developer.apple.com/documentation/swift/array/3126956-reduce)
+[reduce(_:_:)](https://developer.apple.com/documentation/swift/sequence/2907677-reduce) | [reduce(into:_:)](https://developer.apple.com/documentation/swift/array/3126956-reduce)
 
 
 ### flatMap, compactMap
