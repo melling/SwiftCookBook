@@ -33,9 +33,14 @@ let product = [1,2,3].reduce(1, *)
 
 ### flatMap, compactMap
 
+flatMap has been deprecated in Swift, use compactMap.
+
 ```swift
 ["55", "a", "6","b"].compactMap {Int($0)}
 ```
+
+[compactMap(_:)](https://developer.apple.com/documentation/swift/sequence/2950916-compactmap)
+
 
 ### take
 
