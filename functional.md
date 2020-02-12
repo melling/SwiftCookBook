@@ -39,6 +39,13 @@ let product = [1,2,3].reduce(1, *)
 
 ### take
 
+
+```swift
+[1,2,3,4,5,6,7,8,9].prefix(3)
+```
+
+If you wanted to have your own **take** extension on Array, you could add something like the following:
+
 ```swift
 extension Array {
     func take(_ n: Int) -> ArraySlice<Element> {
@@ -56,7 +63,11 @@ let ar0 = [1,2,3].take(2)
 
 ### takeWhile
 
-- [prefix(while:)](https://developer.apple.com/documentation/swift/sequence/3128810-prefix)
+```swift
+[1,2,3,4,-5,6,7,8,9].prefix(while: {$0 > 0} )
+```
+
+[prefix(while:)](https://developer.apple.com/documentation/swift/sequence/3128810-prefix)
 
 ### drop/dropWhile
 
@@ -73,9 +84,7 @@ xs.drop { $0 <= 3 }
 
 ```
 
-- [drop(while:)](https://developer.apple.com/documentation/swift/sequence/3128801-drop)
-- [dropFirst(_:)](https://developer.apple.com/documentation/swift/sequence/3128803-dropfirst)
-- [dropLast(_:)](https://developer.apple.com/documentation/swift/sequence/3128805-droplast)
+ [drop(while:)](https://developer.apple.com/documentation/swift/sequence/3128801-drop) | [dropFirst(_:)](https://developer.apple.com/documentation/swift/sequence/3128803-dropfirst) | [dropLast(_:)](https://developer.apple.com/documentation/swift/sequence/3128805-droplast)
 
 ### zip
 
