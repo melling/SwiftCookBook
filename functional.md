@@ -48,7 +48,11 @@ extension Array {
 
 let ar0 = [1,2,3].take(2)
 ["a","b","c"].take(2)
+
 ```
+
+[prefix(_:)](https://developer.apple.com/documentation/swift/sequence/3128808-prefix)
+
 
 ### takeWhile
 
