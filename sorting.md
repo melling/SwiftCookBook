@@ -12,7 +12,8 @@ let reversed = companies.sorted(by: {$1 < $0})
 ### Sort by Word Length
 
 ```swift
-
+// longest words first: [orange","black", "white", "blue", "red"]
+["red", "orange", "blue", "black", "white"].sorted(by: {$0.count > $1.count}) 
 ```
 
 ###
