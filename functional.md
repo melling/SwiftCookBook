@@ -10,6 +10,8 @@
 let row = "id first last"
 let csv = String(row.map {$0 == " " ? "," : $0}) // replace all occurrences
 ```
+[map(_:)](https://developer.apple.com/documentation/swift/sequence/3018373-map)
+
 
 ### filter
 
@@ -18,11 +20,17 @@ let evens = [1,2,3,4,5,6,7,8,9].filter {$0 % 2 == 0} // isEven
 ["5", "a", "6","b"].filter {($0 as Character).isNumber}
 ```
 
+[filter(_:)](https://developer.apple.com/documentation/swift/sequence/3018365-filter)
+
+
 ### forEach
 
 ```swift
 [pronounView, answerWellView, answerConjugationView].forEach (view.addSubview)
 ```
+
+[forEach(_:)](https://developer.apple.com/documentation/swift/array/1689783-foreach)
+
 
 ### reduce
 
@@ -30,6 +38,9 @@ let evens = [1,2,3,4,5,6,7,8,9].filter {$0 % 2 == 0} // isEven
 let sum = [1,2,3].reduce(0, +)
 let product = [1,2,3].reduce(1, *)
 ```
+
+[reduce(_:_:)](https://developer.apple.com/documentation/swift/array/2298686-reduce) | [reduce(into:_:)](https://developer.apple.com/documentation/swift/array/3126956-reduce)
+
 
 ### flatMap, compactMap
 
