@@ -73,6 +73,10 @@ xs.drop { $0 <= 3 }
 
 ```
 
+- [drop(while:)](https://developer.apple.com/documentation/swift/sequence/3128801-drop)
+- [dropFirst(_:)](https://developer.apple.com/documentation/swift/sequence/3128803-dropfirst)
+- [dropLast(_:)](https://developer.apple.com/documentation/swift/sequence/3128805-droplast)
+
 ### zip
 
 ```swift
@@ -83,6 +87,9 @@ for (ticker, company) in zip(tickers, companies) {
     print("\(ticker),\(company)")
 }
 ```
+
+- [zip(_:_:)](https://developer.apple.com/documentation/swift/1541125-zip)
+
 
 ### Combining
 
