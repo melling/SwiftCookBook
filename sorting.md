@@ -16,10 +16,51 @@ let reversed = companies.sorted(by: {$1 < $0})
 ["red", "orange", "blue", "black", "white"].sorted(by: {$0.count > $1.count}) 
 ```
 
-###
+### Sort Classes
 
 ```swift
+/*
+ Comparable: Equality ==
+ Comparable: < for sorted
+ CustomStringConvertible: Provide description variable for print() 
+ */
+public class Person: Equatable, Comparable, CustomStringConvertible {
+    
+    let first:String
+    let last:String
+    public var description:String { "\(first) \(last)" }
+        
+    init(first:String, last:String) {
+        self.first = first
+        self.last = last
+    }
+    
 
+    public static func == (lhs: Person, rhs: Person) -> Bool {
+        lhs.first == rhs.first && lhs.last == rhs.last
+    }
+    
+    public static func < (lhs: Person, rhs: Person) -> Bool {
+        if lhs.last != rhs.last {
+            return lhs.last < rhs.last
+        }
+        return lhs.first < rhs.first
+    }
+}
+
+let mathematicians = [Person(first: "Isaac", last: "Newton"),
+          Person(first: "Blaise", last: "Pascal"),
+          Person(first: "Daniel", last: "Bernoulli"),
+          Person(first: "Pierre-Simon", last: "Laplace"),
+          Person(first: "Johann", last: "Bernoulli"),
+          
+]
+
+let sortedMath = mathematicians.sorted()
+for w in sortedMath {
+    print("\(w)")
+    
+}
 ```
 
 ###
