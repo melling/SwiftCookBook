@@ -165,7 +165,7 @@ var blogTitle = "  Swift Cookbook  ".trimmingCharacters(in: NSCharacterSet.white
 ```
 
 
-###  Also remove newlines
+###  Trim White Space and Remove Newlines
 
 ```swift
 blogTitle = "  Swift Cookbook  \n".trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines)
@@ -232,9 +232,9 @@ let aDouble: Double? = Double(aNumberStr)
 
 ```swift
 let aWord = "hello"
-let firstLetter = aWord.characters.first
-let lastLetter = aWord.characters.last
-let x = aWord.characters.prefix(3)
+let firstLetter = aWord.first
+let lastLetter = aWord.last
+let x = aWord.prefix(3)
 String(x)
 ```
 
