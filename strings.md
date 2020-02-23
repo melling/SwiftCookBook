@@ -124,11 +124,16 @@ if url.contains(str) {
 }
 ```
 
-### Replace All Characters in String
+### Replace/Remove All Characters in String
 
 ```swift
 let row = "id first last"
 let csv = row.replacingOccurrences(of: " ", with: ",") // import Foundation
+let noSpaces = row.replacingOccurrences(of: " ", with: "") 
+
+var s = "<html>## header"
+s.removeAll(where: ["<", ">"].contains) // mutate s - Set<Character>
+
 ```
 
 ### String begins with/Has prefix
