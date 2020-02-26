@@ -9,6 +9,7 @@
 
 let row = "id first last"
 let csv = String(row.map {$0 == " " ? "," : $0}) // replace all occurrences
+let xs:[Int] = stride(from: -100, to: 110, by: 10).map {$0} // [-100, -90, -80, ..., 100]
 ```
 [map(_:)](https://developer.apple.com/documentation/swift/sequence/3018373-map)
 
