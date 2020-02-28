@@ -28,7 +28,12 @@ var strArray = Array(repeating: "", count: 100)
 let multDim:[[Int]] = [[1,2,3], [4,5,6], [7,8,9]]
 ```
 
+### Add Value
 
+```swift
+let arr2 = anArray + ["Swift"] // merge the two arrays 
+anArray.append("x") // Add value to the end,  mutating array
+```
 
 ###  First element of array
 
