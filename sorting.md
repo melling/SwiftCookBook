@@ -6,6 +6,9 @@
 let companies = ["Microsoft", "Google", "Apple", "Amazon", "Intel"].sorted()
 
 let reversed = companies.sorted(by: {$1 < $0})
+
+let reversedNames = companies.sorted(by: >) // even simpler reverse
+
 ```
 
 ###
