@@ -15,6 +15,7 @@ let numbers = Array(1...10) // 1 through 10
 let numbers9 = Array(1..<10) // 1 through 9
 
 let numbers0_9 = [Int](0..<10)
+let tens:[Int] = (10...100).filter{$0 % 10 == 0} // 10,20,...,100
 
 var zeroArray = Array(repeating: 0, count: 100)
 var strArray = Array(repeating: "", count: 100)
