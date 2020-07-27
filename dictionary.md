@@ -61,6 +61,11 @@ if let value = dictionary["AAPL"] {
 
 ```
 
+```swift
+if dictionary["AAPL"] == nil {
+   dictionary["AAPL"] = "Apple"
+}
+```
 
 ### Add New Key/Value
 
