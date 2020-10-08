@@ -84,6 +84,9 @@ if anArray.contains("three") {
 ```
 
 
+### removeAll(where predicate: {})
+
+Remove all matching elements in O(n) time.
 
 
 ###  How to filter array to get unique items?
